@@ -3,7 +3,7 @@ var gps = require("octopus-gps-tracking");
 var options = {
     'debug'                 : true,
     'port'                  : 8090,
-    'device_adapter'        : "TK103_2"
+    'device_adapter'        : "TK103"
 }
  
 var server = gps.server(options,function(device,connection){
